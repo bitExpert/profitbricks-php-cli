@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitExpert/profitbricks-php-sdk.git",
-                "reference": "9545e7f16b50609da67b79e7ddee0759b6258136"
+                "reference": "c65e23985d77bdab1fbf47e2c810b664f22dfce9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitExpert/profitbricks-php-sdk/zipball/9545e7f16b50609da67b79e7ddee0759b6258136",
-                "reference": "9545e7f16b50609da67b79e7ddee0759b6258136",
+                "url": "https://api.github.com/repos/bitExpert/profitbricks-php-sdk/zipball/c65e23985d77bdab1fbf47e2c810b664f22dfce9",
+                "reference": "c65e23985d77bdab1fbf47e2c810b664f22dfce9",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
                 }
             ],
             "description": "proftbricks PHP SDK",
-            "time": "2015-05-24 19:34:38"
+            "time": "2015-05-24 20:02:05"
         },
         {
             "name": "symfony/console",
