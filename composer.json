@@ -1,0 +1,39 @@
+{
+  "name": "bitexpert/profitbricks-php-cli",
+  "description": "proftbricks PHP CLI",
+  "version": "0.0.1",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+  {
+    "name": "Stephan Hochdörfer",
+    "email": "S.Hochdoerfer@bitExpert.de",
+    "homepage": "http://www.bitExpert.de"
+  }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/console": "v2.5.0",
+    "bitexpert/profitbricks-php-sdk": "dev-master"
+  },
+  "require-dev": {
+    "mikey179/vfsStream": "v1.2.0",
+    "sebastian/phpcpd": "^2.0.0",
+    "sebastian/finder-facade": "^1.1.0",
+    "phpunit/php-code-coverage": "^2.0.0",
+    "phpunit/phpunit": "^4.4.0",
+    "phing/phing": "^2.9.0",
+    "phpmd/phpmd": "^2.1.0",
+    "pdepend/pdepend": "^2.0.4",
+    "fabpot/php-cs-fixer": "v1.3",
+    "phpdocumentor/phpdocumentor": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Profitbricks\\Cli\\": [
+        "src/Profitbricks/Cli",
+        "tests/Profitbricks/Cli"
+      ]
+    }
+  }
+}
