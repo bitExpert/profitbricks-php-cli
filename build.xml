@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<project name="profitbricks-php-cli" basedir="." default="check">
+</project>
