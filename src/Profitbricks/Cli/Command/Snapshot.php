@@ -20,7 +20,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * ListSnapshots command to interact with the profitbricks Snapshots API.
  */
-class ListSnapshots extends Command
+class Snapshot extends Command
 {
     /**
      * @var \Profitbricks\Sdk\Client
