@@ -45,7 +45,6 @@ class Datacenter extends Command
     protected function configure()
     {
         $this->setName('datacenter')
-            ->setDescription('Interact with profitbricks datacenters.')
             ->setDefinition(
                 array(
                     new InputArgument('subcommand', InputArgument::OPTIONAL, 'The subcommand to execute', 'datacenter')
